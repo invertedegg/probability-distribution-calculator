@@ -20,7 +20,7 @@ int chooseDistribution()
 
     while(c > 2 || c < 0)
     {
-        cout << "Please choose a distribution to calculate.\nBinomial: 1\nNegative Binomial: 2\nExit: 0\n\n:";
+        cout << "Please choose a distribution to calculate.\nUniform: 0\nBinomial: 1\nNegative Binomial: 2\nExit: 0\n\n:";
         cin >> c;
     }
     printf("--------------------------------------------\n");
@@ -52,6 +52,8 @@ int main()
     {
         switch(choice)
         {
+            case 0:
+                break;
             case 1:
                 // Binomial Distribution
                 Binomial bd;
