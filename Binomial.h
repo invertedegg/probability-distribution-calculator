@@ -1,7 +1,7 @@
 #ifndef BINOMIAL_H
 #define BINOMIAL_H
 
-namespace B{
+namespace B {
     class Binomial
     {
     public:
